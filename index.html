@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="./assets/icons/logo.png" alt="Logo" class="logo">
+            </div>
+            <div class="title-container">
+                <h1 class="main-title">Portfoli</h1>
+                <p class="author-name">Ernesto Martinez</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="projects-container">
+            <!-- Proyecto 1 -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="./assets/Imatges/juego.png" alt="Banner">
+                </div>
+                <div class="project-info">
+                    <h2>Pokstargames</h2>
+                    <p>Este es el proyecto de final de curso de SMX2, en el cual creamos un juego desde cero usando Godot en Linux.</p>
+                    <a href="Pagines/Projecte1.html" class="read-more">Leer más</a>
+                </div>
+            </article>
+
+            <!-- Proyecto 2 -->
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="./assets/Imatges/ofimatica.png" alt="Banner">
+                </div>
+                <div class="project-info">
+                    <h2>Edicion de ofimatica</h2>
+                    <p>Este es un proyecto de ofimatica, donde teniamos que presentar un video para demostrar lo que habiamos aprendido en edicion de video.</p>
+                    <a href="Pagines/Projecte2.html" class="read-more">Leer más</a>
+                </div>
+            </article>
+        </div>
+
+        <section class="projects-list">
+            <a href="Pagines/Llistat.html" class="list-button">Listado Proyectos</a>
+        </section>
+
+        <section class="personal-description">
+            <div class="profile-image">
+                <img src="./assets/Imatges/yo.jpg" alt="Perfil">
+            </div>
+            <h2>Descripción Personal</h2>
+            <p>¡Hola! Soy Ernesto, estudiante de un grado superior en ASIX, especializado en ciberseguridad. Mi enfoque combina lo técnico con lo artístico, buscando soluciones creativas y eficientes para los desafíos del mundo digital.</p>
+            <p>En mi tiempo libre, disfruto explorando música de todo tipo, lo que inspira mi perspectiva única y me mantiene siempre creativo. Mi objetivo es crecer profesionalmente en el ámbito de la ciberseguridad y contribuir con ideas frescas e innovadoras en cada proyecto que emprenda.</p>
+        </section>
+
+
+        <footer class="contact-footer">
+            <div class="personal-info">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <span class="icon">📱</span>
+                        <a href="tel:+34664303919">664 30 39 19</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">✉️</span>
+                        <a href="mailto:arguetaernest22@gmail.com">arguetaernest22@gmail.com</a>
+                    </div>
+                </div>
+                <div class="social-info">
+                    <div class="info-item">
+                        <span class="icon">📸</span>
+                        <a href="https://www.instagram.com/ernesto__006/?next=%2F">@ernesto__006</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">𝕏</span>
+                        <a href="Link usuario X">x_usuario</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🔗</span>
+                        <a href="https://www.linkedin.com/in/ernesto-itb-martinez-argueta-60619029b/">linkedin:ernesto [itb] martinez argueta</a>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">🐙</span>
+                        <a href="https://github.com/ErnestoMartinez-ITB2425">ErnestoMartinez-ITB2425</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <a href="Pagines/formulari.html" class="contact-button">Form. de Contacto</a>
+            </div>
+        </footer>
+    </main>
+
+    <div id="successMessage" class="form-message form-message-success" style="display: none;">
+        ¡Formulario enviado correctamente!
+    </div>
+
+    <script src="./src/js/main.js"></script>
+</body>
+</html>
